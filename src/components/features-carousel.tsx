@@ -50,7 +50,7 @@ export default function FeaturesCarousel() {
     ]
 
     return (
-        <section className="w-full py-20 bg-black flex justify-center items-center">
+        <section className="w-full py-20 bg-black flex justify-center items-center px-4 md:px-0">
             <div className="flex py-10 justify-center items-center w-full h-full max-w-3xl aspect-square bg-gradient-to-r from-black via-[#382485] to-black">
                 <Carousel
                     setApi={setApi}

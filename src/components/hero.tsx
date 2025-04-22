@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react"
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[600px] flex items-center justify-center text-white text-center py-20 h-screen">
+    <section className="relative w-full min-h-[600px] flex items-center justify-center text-white text-center py-20 h-screen pt-28">
       {/* Background with overlay */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"

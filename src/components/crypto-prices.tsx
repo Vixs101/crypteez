@@ -45,8 +45,7 @@ export default function CryptoPrices() {
             Buy Bitcoin, ETH, Polygon &<br />
             250+ Cryptocurrencies
           </h2>
-
-          <Button variant="outline" className="rounded-full px-8 py-2 border-2 border-white bg-[#1a1147]/90 h-auto text-lg">
+          <Button variant="outline" className="rounded-full px-8 py-2 border-white/20 text-white hover:text-black bg-black hover:bg-white  h-auto text-lg">
             <LineChart className="w-4 h-4 mr-2" />
             Check Prices
           </Button>
@@ -81,7 +80,7 @@ export default function CryptoPrices() {
                 <Button
                   size="sm"
                   variant="outline"
-                  className="border-white/20 text-white hover:bg-white/10 rounded-full px-4"
+                  className="rounded-full py-2 border-white/20 text-white hover:text-black bg-black hover:bg-white px-4"
                 >
                   Trade
                 </Button>

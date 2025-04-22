@@ -3,6 +3,8 @@ import Hero from "@/components/hero"
 import AppShowcase from "@/components/app-showcase"
 import FeaturesCarousel from "@/components/features-carousel"
 import CryptoPrices from "@/components/crypto-prices"
+import FeaturesGrid from "@/components/features-grid"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <AppShowcase />
       <FeaturesCarousel />
       <CryptoPrices />
+      <FeaturesGrid />
+      <Footer />
     </main>
   )
 }
